@@ -65,6 +65,7 @@ class Cubos {
     stroke( stroke_color );
     fill( fill_color, opacity );
     
+    
     if( bool_stroke == true ){
       noStroke();
     }

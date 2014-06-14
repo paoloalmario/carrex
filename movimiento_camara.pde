@@ -3,7 +3,7 @@
 // modificara las variables cam_moveX y moveY de acuerdo a la posición del ratón en la pantalla
 // - en el eje horizontal la variable cam_moveX oscila entre -100 y 100
 // - en el eje vertical la variable moveY oscila entre -100 y 100
-
+/*
 void movimiento_camara_mouse() {
 
   float mapX = 0,// map de la posicion del mouse en X
@@ -81,8 +81,8 @@ void movimiento_camara_mouse() {
     }
   }
 }
-
-
+*/
+/*
 
 void movimiento_camara_kinect() {
 
@@ -151,5 +151,5 @@ void movimiento_camara_kinect() {
      }
     
   }
-}
+}*/
 
