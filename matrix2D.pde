@@ -135,7 +135,7 @@ class  matrix2D{
           cubos_matrix[i][j].displaceY = y_displace;
         }
         
-        // z_displace = int( random( 10 ) ); // this gives a static cool effect
+        z_displace = int( random( 50 ) ); // this gives a static cool effect
         // desplazamiento para Y
         if( z_displace != 0){
           cubos_matrix[i][j].displaceZ = z_displace;

@@ -1,5 +1,5 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////                 Matrix - Clase de cubos 3D                    ////////////////////
+//////////////////////                 Carrex - Clase de cubos 3D                    ////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////  Paolo Almario /////////////////////////   10 Marzo 2013      ////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -9,9 +9,6 @@
 /*
 
   Este Sketch realiza varias tareas:
-  
-  
-  // out of date // 1. Crea una matriz de 50x50x1 (X, Y, Z) cubos3D de dimensiones 50x50x50 pixeles.
   
   // up to date // 1.1 La matriz es creada dejando el punto de origen (0,0,0) en la mitad. (el constructuor de la clase cubo recibe 3 parametros de desplazamiento del punto de origen, es aqui que se hace se establece que la matriz se creará conservando el punto 0,0,0 en la mitad)
   
@@ -29,15 +26,15 @@
 //-----------------------------------   VARIABLES EDITABLES
 
 
-float root_ancho = 1000.0, //ancho del sketch
-      root_alto = 1000.0;  //alto del sketch
+float root_ancho = 500.0, //ancho del sketch
+      root_alto = 500.0;  //alto del sketch
       
       
-matrix2D Matrix = new matrix2D( 50,    // horizontal divisions 
-                                50,    // vertical divisions
-                                10,   // cubes width
-                                10,   // cubes height
-                                10,    // cubes fond
+matrix2D Matrix = new matrix2D( 10,    // horizontal divisions 
+                                10,    // vertical divisions
+                                30,    // cubes width
+                                30,    // cubes height
+                                50,    // cubes fond
                                 0,     // x displacement
                                 0,     // y displacement
                                 0); // z displacement
